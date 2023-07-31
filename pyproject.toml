@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nlp"
+version = "0.1.0"
+description = ""
+authors = ["moxak <moxak.b@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+transformers = "^4.31.0"
+datasets = "^2.14.1"
+ipykernel = "^6.25.0"
+torch = {path = "torch-2.0.1+cu117-cp310-cp310-win_amd64.whl"}
+accelerate = "^0.21.0"
+
+
+[[tool.poetry.source]]
+name = "torch_cu117"
+url = "https://download.pytorch.org/whl/cu117"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
