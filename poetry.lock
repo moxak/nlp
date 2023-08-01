@@ -854,6 +854,41 @@ ssh = ["paramiko"]
 tqdm = ["tqdm"]
 
 [[package]]
+name = "fugashi"
+version = "1.2.1"
+description = "A Cython MeCab wrapper for fast, pythonic Japanese tokenization."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "fugashi-1.2.1-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:98779cb9d7c28b5b65a8f7ace77c657dcc81d5f7affb8babe409cc6b5fef9a60"},
+    {file = "fugashi-1.2.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f62a59aac8a39f0d3fd74e9fd8f030491566ebe805f18015d3382cc48619f6e5"},
+    {file = "fugashi-1.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8282a1669f976e466ca8577d578356109e87d8efabc4f7413eb34fb89d5c7c5a"},
+    {file = "fugashi-1.2.1-cp310-cp310-win_amd64.whl", hash = "sha256:2d0e08b130e2e3fd354d9b513623bfe8e17ca569e08b85f2c93cb3b096d70c23"},
+    {file = "fugashi-1.2.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6d67b8e7007ae9883a7888139c177f054da64d003d15dc22943b9a983d876404"},
+    {file = "fugashi-1.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b670f95d8210975a0343883e5a37a514388b0c879d219ef37746e169d03c3b84"},
+    {file = "fugashi-1.2.1-cp311-cp311-win_amd64.whl", hash = "sha256:1391cadd916237b7b8b498380cc421340b32c6c4265f0ef4d14b19be3e7ce9ed"},
+    {file = "fugashi-1.2.1-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:9d5391aa6ee4860fdf765b206e0104d0de5aff20cc2149ecd00e0acc7860ee9a"},
+    {file = "fugashi-1.2.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ad9a9a9c780d0771195c23f343dff9c3e626d1fb6b0b87c3bb9ebc39ad654130"},
+    {file = "fugashi-1.2.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c689951c7946eeac290b3f184916e40c7ac2653f6090d7544117c9057d1ac890"},
+    {file = "fugashi-1.2.1-cp37-cp37m-win_amd64.whl", hash = "sha256:b4ce85c3fc48ce90ebbc7974b470dbb3c1f53d89cf1ee4305e84612d7beee1e9"},
+    {file = "fugashi-1.2.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:68e0f9491487a16a173a6c0d6d5a2369ff9e276f1d8cd7f476515f0f1391ad5b"},
+    {file = "fugashi-1.2.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:07d50bb39b1e47f974335cc999107bad97ee1028699d86d6f12bd11308b91930"},
+    {file = "fugashi-1.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ed08bf98620f25204f40fe759340cecfa25e2f8e66b6c91ff2f2500dbf5be817"},
+    {file = "fugashi-1.2.1-cp38-cp38-win_amd64.whl", hash = "sha256:82f53673e3b811dad8b6607f15997014af18179124dfbd7f49df4a1d66c3c7a5"},
+    {file = "fugashi-1.2.1-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:a0fca2040219ccd4e30e853828e9296a05efed796274b526bac8f3f87f02e9ae"},
+    {file = "fugashi-1.2.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:09d0746b21cf5825b572d03e681fef7e60f85f8203498a6d84a67d8bc7b69d69"},
+    {file = "fugashi-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a905395c5ff32a505947a4a549ab77ed6987a558023abe8ecb4b8a867bd8c9c2"},
+    {file = "fugashi-1.2.1-cp39-cp39-win_amd64.whl", hash = "sha256:a30caae5dce0c02e2a5020e6b15e55861782a51088669de69814632f33b8e2e7"},
+    {file = "fugashi-1.2.1-pp37-pypy37_pp73-macosx_10_9_x86_64.whl", hash = "sha256:badc89f57997fbb7efba62c73b608f097bcf2414b01a9344f97951534af46aa5"},
+    {file = "fugashi-1.2.1-pp38-pypy38_pp73-macosx_10_9_x86_64.whl", hash = "sha256:fc0a81e10197ac055bb20489e55d3669c082df5b76123aeb4dcc692031578434"},
+    {file = "fugashi-1.2.1.tar.gz", hash = "sha256:e7c7aea6684006af223b5145b96c071c2e10353afb9df6712df4458003cf62d3"},
+]
+
+[package.extras]
+unidic = ["unidic"]
+unidic-lite = ["unidic-lite"]
+
+[[package]]
 name = "huggingface-hub"
 version = "0.16.4"
 description = "Client library to download and publish models, datasets and other repos on the huggingface.co hub"
@@ -894,6 +929,16 @@ python-versions = ">=3.5"
 files = [
     {file = "idna-3.4-py3-none-any.whl", hash = "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"},
     {file = "idna-3.4.tar.gz", hash = "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"},
+]
+
+[[package]]
+name = "ipadic"
+version = "1.0.0"
+description = "IPAdic packaged for Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "ipadic-1.0.0.tar.gz", hash = "sha256:f5923d31eca6131acaaf18ed28d8998665b1347b640d3a6476f64650e9a71c07"},
 ]
 
 [[package]]
@@ -1048,6 +1093,17 @@ MarkupSafe = ">=2.0"
 
 [package.extras]
 i18n = ["Babel (>=2.7)"]
+
+[[package]]
+name = "joblib"
+version = "1.3.1"
+description = "Lightweight pipelining with Python functions"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "joblib-1.3.1-py3-none-any.whl", hash = "sha256:89cf0529520e01b3de7ac7b74a8102c90d16d54c64b5dd98cafcd14307fdf915"},
+    {file = "joblib-1.3.1.tar.gz", hash = "sha256:1f937906df65329ba98013dc9692fe22a4c5e4a648112de500508b18a21b41e3"},
+]
 
 [[package]]
 name = "json5"
@@ -1909,6 +1965,17 @@ files = [
 ]
 
 [[package]]
+name = "plac"
+version = "1.3.5"
+description = "The smartest command line arguments parser in the world"
+optional = false
+python-versions = "*"
+files = [
+    {file = "plac-1.3.5-py2.py3-none-any.whl", hash = "sha256:a8933d21a40fe2cec177a2f96217425a4e889d275aa3e25ecf9a9640ab16d416"},
+    {file = "plac-1.3.5.tar.gz", hash = "sha256:38bdd864d0450fb748193aa817b9c458a8f5319fbf97b2261151cfc0a5812090"},
+]
+
+[[package]]
 name = "platformdirs"
 version = "3.9.1"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -2477,6 +2544,20 @@ files = [
 ]
 
 [[package]]
+name = "rhoknp"
+version = "1.3.0"
+description = "Yet another Python binding for Juman++/KNP/KWJA"
+optional = false
+python-versions = ">=3.7,<4.0"
+files = [
+    {file = "rhoknp-1.3.0-py3-none-any.whl", hash = "sha256:41ee79bbd25e8e1142d555a2e714356fd810b9bf9bb610c75b3bcb704c37ac00"},
+    {file = "rhoknp-1.3.0.tar.gz", hash = "sha256:ccbac0bba6662b00a573f2d0361e64978901202c44c56b50b3ce2afa5dbb23b6"},
+]
+
+[package.extras]
+cli = ["PyYAML (>=6.0,<7.0)", "fastapi (>=0.92.0,<1)", "jinja2 (>=3.1.2,<4.0.0)", "rich (>=12.6)", "typer (>=0.6.1,<0.8)", "uvicorn (>=0.21.0,<1)"]
+
+[[package]]
 name = "rpds-py"
 version = "0.9.2"
 description = "Python bindings to Rust's persistent data structures (rpds)"
@@ -2643,6 +2724,86 @@ testing = ["h5py (>=3.7.0)", "huggingface-hub (>=0.12.1)", "numpy (>=1.21.6)", "
 torch = ["torch (>=1.10)"]
 
 [[package]]
+name = "scikit-learn"
+version = "1.3.0"
+description = "A set of python modules for machine learning and data mining"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "scikit-learn-1.3.0.tar.gz", hash = "sha256:8be549886f5eda46436b6e555b0e4873b4f10aa21c07df45c4bc1735afbccd7a"},
+    {file = "scikit_learn-1.3.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:981287869e576d42c682cf7ca96af0c6ac544ed9316328fd0d9292795c742cf5"},
+    {file = "scikit_learn-1.3.0-cp310-cp310-macosx_12_0_arm64.whl", hash = "sha256:436aaaae2c916ad16631142488e4c82f4296af2404f480e031d866863425d2a2"},
+    {file = "scikit_learn-1.3.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c7e28d8fa47a0b30ae1bd7a079519dd852764e31708a7804da6cb6f8b36e3630"},
+    {file = "scikit_learn-1.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:ae80c08834a473d08a204d966982a62e11c976228d306a2648c575e3ead12111"},
+    {file = "scikit_learn-1.3.0-cp310-cp310-win_amd64.whl", hash = "sha256:552fd1b6ee22900cf1780d7386a554bb96949e9a359999177cf30211e6b20df6"},
+    {file = "scikit_learn-1.3.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:79970a6d759eb00a62266a31e2637d07d2d28446fca8079cf9afa7c07b0427f8"},
+    {file = "scikit_learn-1.3.0-cp311-cp311-macosx_12_0_arm64.whl", hash = "sha256:850a00b559e636b23901aabbe79b73dc604b4e4248ba9e2d6e72f95063765603"},
+    {file = "scikit_learn-1.3.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:ee04835fb016e8062ee9fe9074aef9b82e430504e420bff51e3e5fffe72750ca"},
+    {file = "scikit_learn-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9d953531f5d9f00c90c34fa3b7d7cfb43ecff4c605dac9e4255a20b114a27369"},
+    {file = "scikit_learn-1.3.0-cp311-cp311-win_amd64.whl", hash = "sha256:151ac2bf65ccf363664a689b8beafc9e6aae36263db114b4ca06fbbbf827444a"},
+    {file = "scikit_learn-1.3.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:6a885a9edc9c0a341cab27ec4f8a6c58b35f3d449c9d2503a6fd23e06bbd4f6a"},
+    {file = "scikit_learn-1.3.0-cp38-cp38-macosx_12_0_arm64.whl", hash = "sha256:9877af9c6d1b15486e18a94101b742e9d0d2f343d35a634e337411ddb57783f3"},
+    {file = "scikit_learn-1.3.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c470f53cea065ff3d588050955c492793bb50c19a92923490d18fcb637f6383a"},
+    {file = "scikit_learn-1.3.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:fd6e2d7389542eae01077a1ee0318c4fec20c66c957f45c7aac0c6eb0fe3c612"},
+    {file = "scikit_learn-1.3.0-cp38-cp38-win_amd64.whl", hash = "sha256:3a11936adbc379a6061ea32fa03338d4ca7248d86dd507c81e13af428a5bc1db"},
+    {file = "scikit_learn-1.3.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:998d38fcec96584deee1e79cd127469b3ad6fefd1ea6c2dfc54e8db367eb396b"},
+    {file = "scikit_learn-1.3.0-cp39-cp39-macosx_12_0_arm64.whl", hash = "sha256:ded35e810438a527e17623ac6deae3b360134345b7c598175ab7741720d7ffa7"},
+    {file = "scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0e8102d5036e28d08ab47166b48c8d5e5810704daecf3a476a4282d562be9a28"},
+    {file = "scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7617164951c422747e7c32be4afa15d75ad8044f42e7d70d3e2e0429a50e6718"},
+    {file = "scikit_learn-1.3.0-cp39-cp39-win_amd64.whl", hash = "sha256:1d54fb9e6038284548072df22fd34777e434153f7ffac72c8596f2d6987110dd"},
+]
+
+[package.dependencies]
+joblib = ">=1.1.1"
+numpy = ">=1.17.3"
+scipy = ">=1.5.0"
+threadpoolctl = ">=2.0.0"
+
+[package.extras]
+benchmark = ["matplotlib (>=3.1.3)", "memory-profiler (>=0.57.0)", "pandas (>=1.0.5)"]
+docs = ["Pillow (>=7.1.2)", "matplotlib (>=3.1.3)", "memory-profiler (>=0.57.0)", "numpydoc (>=1.2.0)", "pandas (>=1.0.5)", "plotly (>=5.14.0)", "pooch (>=1.6.0)", "scikit-image (>=0.16.2)", "seaborn (>=0.9.0)", "sphinx (>=6.0.0)", "sphinx-copybutton (>=0.5.2)", "sphinx-gallery (>=0.10.1)", "sphinx-prompt (>=1.3.0)", "sphinxext-opengraph (>=0.4.2)"]
+examples = ["matplotlib (>=3.1.3)", "pandas (>=1.0.5)", "plotly (>=5.14.0)", "pooch (>=1.6.0)", "scikit-image (>=0.16.2)", "seaborn (>=0.9.0)"]
+tests = ["black (>=23.3.0)", "matplotlib (>=3.1.3)", "mypy (>=1.3)", "numpydoc (>=1.2.0)", "pandas (>=1.0.5)", "pooch (>=1.6.0)", "pyamg (>=4.0.0)", "pytest (>=7.1.2)", "pytest-cov (>=2.9.0)", "ruff (>=0.0.272)", "scikit-image (>=0.16.2)"]
+
+[[package]]
+name = "scipy"
+version = "1.9.3"
+description = "Fundamental algorithms for scientific computing in Python"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "scipy-1.9.3-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:1884b66a54887e21addf9c16fb588720a8309a57b2e258ae1c7986d4444d3bc0"},
+    {file = "scipy-1.9.3-cp310-cp310-macosx_12_0_arm64.whl", hash = "sha256:83b89e9586c62e787f5012e8475fbb12185bafb996a03257e9675cd73d3736dd"},
+    {file = "scipy-1.9.3-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1a72d885fa44247f92743fc20732ae55564ff2a519e8302fb7e18717c5355a8b"},
+    {file = "scipy-1.9.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d01e1dd7b15bd2449c8bfc6b7cc67d630700ed655654f0dfcf121600bad205c9"},
+    {file = "scipy-1.9.3-cp310-cp310-win_amd64.whl", hash = "sha256:68239b6aa6f9c593da8be1509a05cb7f9efe98b80f43a5861cd24c7557e98523"},
+    {file = "scipy-1.9.3-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:b41bc822679ad1c9a5f023bc93f6d0543129ca0f37c1ce294dd9d386f0a21096"},
+    {file = "scipy-1.9.3-cp311-cp311-macosx_12_0_arm64.whl", hash = "sha256:90453d2b93ea82a9f434e4e1cba043e779ff67b92f7a0e85d05d286a3625df3c"},
+    {file = "scipy-1.9.3-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:83c06e62a390a9167da60bedd4575a14c1f58ca9dfde59830fc42e5197283dab"},
+    {file = "scipy-1.9.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:abaf921531b5aeaafced90157db505e10345e45038c39e5d9b6c7922d68085cb"},
+    {file = "scipy-1.9.3-cp311-cp311-win_amd64.whl", hash = "sha256:06d2e1b4c491dc7d8eacea139a1b0b295f74e1a1a0f704c375028f8320d16e31"},
+    {file = "scipy-1.9.3-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:5a04cd7d0d3eff6ea4719371cbc44df31411862b9646db617c99718ff68d4840"},
+    {file = "scipy-1.9.3-cp38-cp38-macosx_12_0_arm64.whl", hash = "sha256:545c83ffb518094d8c9d83cce216c0c32f8c04aaf28b92cc8283eda0685162d5"},
+    {file = "scipy-1.9.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0d54222d7a3ba6022fdf5773931b5d7c56efe41ede7f7128c7b1637700409108"},
+    {file = "scipy-1.9.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:cff3a5295234037e39500d35316a4c5794739433528310e117b8a9a0c76d20fc"},
+    {file = "scipy-1.9.3-cp38-cp38-win_amd64.whl", hash = "sha256:2318bef588acc7a574f5bfdff9c172d0b1bf2c8143d9582e05f878e580a3781e"},
+    {file = "scipy-1.9.3-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:d644a64e174c16cb4b2e41dfea6af722053e83d066da7343f333a54dae9bc31c"},
+    {file = "scipy-1.9.3-cp39-cp39-macosx_12_0_arm64.whl", hash = "sha256:da8245491d73ed0a994ed9c2e380fd058ce2fa8a18da204681f2fe1f57f98f95"},
+    {file = "scipy-1.9.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4db5b30849606a95dcf519763dd3ab6fe9bd91df49eba517359e450a7d80ce2e"},
+    {file = "scipy-1.9.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c68db6b290cbd4049012990d7fe71a2abd9ffbe82c0056ebe0f01df8be5436b0"},
+    {file = "scipy-1.9.3-cp39-cp39-win_amd64.whl", hash = "sha256:5b88e6d91ad9d59478fafe92a7c757d00c59e3bdc3331be8ada76a4f8d683f58"},
+    {file = "scipy-1.9.3.tar.gz", hash = "sha256:fbc5c05c85c1a02be77b1ff591087c83bc44579c6d2bd9fb798bb64ea5e1a027"},
+]
+
+[package.dependencies]
+numpy = ">=1.18.5,<1.26.0"
+
+[package.extras]
+dev = ["flake8", "mypy", "pycodestyle", "typing_extensions"]
+doc = ["matplotlib (>2)", "numpydoc", "pydata-sphinx-theme (==0.9.0)", "sphinx (!=4.1.0)", "sphinx-panels (>=0.5.2)", "sphinx-tabs"]
+test = ["asv", "gmpy2", "mpmath", "pytest", "pytest-cov", "pytest-xdist", "scikit-umfpack", "threadpoolctl"]
+
+[[package]]
 name = "send2trash"
 version = "1.8.2"
 description = "Send file to trash natively under Mac OS X, Windows and Linux"
@@ -2711,6 +2872,47 @@ pure-eval = "*"
 tests = ["cython", "littleutils", "pygments", "pytest", "typeguard"]
 
 [[package]]
+name = "sudachidict-core"
+version = "20230110"
+description = "Sudachi Dictionary for SudachiPy - Core Edition"
+optional = false
+python-versions = "*"
+files = [
+    {file = "SudachiDict-core-20230110.tar.gz", hash = "sha256:35e3fa212e797d23c2147816febb6a5b870c4fe81fa05ad94ece271f23ea4656"},
+]
+
+[package.dependencies]
+SudachiPy = ">=0.5,<0.7"
+
+[[package]]
+name = "sudachipy"
+version = "0.6.7"
+description = "Python version of Sudachi, the Japanese Morphological Analyzer"
+optional = false
+python-versions = "*"
+files = [
+    {file = "SudachiPy-0.6.7-cp310-cp310-macosx_10_12_universal2.whl", hash = "sha256:8f14ae0ffeb5fa90c3c47fd25af0afdcec8cb3714f936c9cd4eb15132336148c"},
+    {file = "SudachiPy-0.6.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3e3f54006158d3112d86502f1ff3ab81f1d80c75d00ffeb853522f919a853063"},
+    {file = "SudachiPy-0.6.7-cp310-cp310-win_amd64.whl", hash = "sha256:9fdc7bd9d059821ef84e7600d69b150109ef5b71be0c68dce47616fce5bf8dac"},
+    {file = "SudachiPy-0.6.7-cp311-cp311-macosx_10_12_universal2.whl", hash = "sha256:5b7d5882e1450cdfd3235b14e569cde793d878fd018ade2871cb35e6f9f13ea6"},
+    {file = "SudachiPy-0.6.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:789d448bc5a3c5e0ed1e4bff505eed1be0fab3bf2e3480edd0b885c58bcd4cff"},
+    {file = "SudachiPy-0.6.7-cp311-cp311-win_amd64.whl", hash = "sha256:06e9af5af655bd74fcb793305efe0d46689b4827f295807b332f935abd974d83"},
+    {file = "SudachiPy-0.6.7-cp37-cp37m-macosx_10_12_universal2.whl", hash = "sha256:c660fb9dfd65d4d03109dfc5ab6b0e7415c79ed78c59fd456cd30e26ea6c340d"},
+    {file = "SudachiPy-0.6.7-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8f1aa21328289206520e62547d3ab8a62e1c6ed370a8b025585b302e1de772bc"},
+    {file = "SudachiPy-0.6.7-cp37-cp37m-win_amd64.whl", hash = "sha256:656628cd74b7483f1c10d25dee048983f062404f8cd04dfc3c5e28f987bc5a39"},
+    {file = "SudachiPy-0.6.7-cp38-cp38-macosx_10_12_universal2.whl", hash = "sha256:fb1085d372169df8187206dc505710d1a440f87523dbb287c4c639fb3d1eac78"},
+    {file = "SudachiPy-0.6.7-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b487890c499c927e8c6af2c76bdea3b8602f7c0a9145fe5e25cd9a82cbb96c05"},
+    {file = "SudachiPy-0.6.7-cp38-cp38-win_amd64.whl", hash = "sha256:4f60e20cd50a940f3ef57606a09f20ac2ef4262989f545e552eebb18b5484608"},
+    {file = "SudachiPy-0.6.7-cp39-cp39-macosx_10_12_universal2.whl", hash = "sha256:2d9ad67c54463eadce8728bf991c18d936b0756eedd3ed7661082aa36e7e5d60"},
+    {file = "SudachiPy-0.6.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d167cb59e044aff1123b534d045c66147ffa76a75196284e188c245af6fed013"},
+    {file = "SudachiPy-0.6.7-cp39-cp39-win_amd64.whl", hash = "sha256:4e368e7bfa83885fd9a6ffb0366fe73ce100caa72ab86f69b149091ce813da27"},
+    {file = "SudachiPy-0.6.7.tar.gz", hash = "sha256:e4fb026cc367e0dff7d0b8a2fce510e66d5bf7ef4728af76bfe63132b22753cd"},
+]
+
+[package.extras]
+tests = ["sudachidict-core", "tokenizers"]
+
+[[package]]
 name = "sympy"
 version = "1.12"
 description = "Computer algebra system (CAS) in Python"
@@ -2743,6 +2945,17 @@ tornado = ">=6.1.0"
 [package.extras]
 docs = ["myst-parser", "pydata-sphinx-theme", "sphinx"]
 test = ["pre-commit", "pytest (>=7.0)", "pytest-timeout"]
+
+[[package]]
+name = "threadpoolctl"
+version = "3.2.0"
+description = "threadpoolctl"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "threadpoolctl-3.2.0-py3-none-any.whl", hash = "sha256:2b7818516e423bdaebb97c723f86a7c6b0a83d3f3b0970328d66f4d9104dc032"},
+    {file = "threadpoolctl-3.2.0.tar.gz", hash = "sha256:c96a0ba3bdddeaca37dc4cc7344aafad41cdb8c313f74fdfe387a867bba93355"},
+]
 
 [[package]]
 name = "tinycss2"
@@ -2919,15 +3132,22 @@ files = [
 
 [package.dependencies]
 filelock = "*"
+fugashi = {version = ">=1.0", optional = true, markers = "extra == \"ja\""}
 huggingface-hub = ">=0.14.1,<1.0"
+ipadic = {version = ">=1.0.0,<2.0", optional = true, markers = "extra == \"ja\""}
 numpy = ">=1.17"
 packaging = ">=20.0"
 pyyaml = ">=5.1"
 regex = "!=2019.12.17"
 requests = "*"
+rhoknp = {version = ">=1.1.0,<1.3.1", optional = true, markers = "extra == \"ja\""}
 safetensors = ">=0.3.1"
+sudachidict-core = {version = ">=20220729", optional = true, markers = "extra == \"ja\""}
+sudachipy = {version = ">=0.6.6", optional = true, markers = "extra == \"ja\""}
 tokenizers = ">=0.11.1,<0.11.3 || >0.11.3,<0.14"
 tqdm = ">=4.27"
+unidic = {version = ">=1.0.2", optional = true, markers = "extra == \"ja\""}
+unidic-lite = {version = ">=1.0.7", optional = true, markers = "extra == \"ja\""}
 
 [package.extras]
 accelerate = ["accelerate (>=0.20.3)"]
@@ -2998,6 +3218,32 @@ files = [
 ]
 
 [[package]]
+name = "unidic"
+version = "1.1.0"
+description = "UniDic packaged for Python"
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "unidic-1.1.0.tar.gz", hash = "sha256:0ab91c05de342c84d2a6314901fd3afb9061ecd7534dd4a0431dccbb87d921b7"},
+]
+
+[package.dependencies]
+plac = ">=1.1.3,<2.0.0"
+requests = ">=2.22.0,<3.0.0"
+tqdm = ">=4.41.1,<5.0.0"
+wasabi = ">=0.6.0,<1.0.0"
+
+[[package]]
+name = "unidic-lite"
+version = "1.0.8"
+description = "A small version of UniDic packaged for Python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "unidic-lite-1.0.8.tar.gz", hash = "sha256:db9d4572d9fdd4d00a97949d4b0741ec480ee05a7e7e2e32f547500dae27b245"},
+]
+
+[[package]]
 name = "uri-template"
 version = "1.3.0"
 description = "RFC 6570 URI Template Processor"
@@ -3027,6 +3273,17 @@ brotli = ["brotli (>=1.0.9)", "brotlicffi (>=0.8.0)"]
 secure = ["certifi", "cryptography (>=1.9)", "idna (>=2.0.0)", "pyopenssl (>=17.1.0)", "urllib3-secure-extra"]
 socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["zstandard (>=0.18.0)"]
+
+[[package]]
+name = "wasabi"
+version = "0.10.1"
+description = "A lightweight console printing and formatting toolkit"
+optional = false
+python-versions = "*"
+files = [
+    {file = "wasabi-0.10.1-py3-none-any.whl", hash = "sha256:fe862cc24034fbc9f04717cd312ab884f71f51a8ecabebc3449b751c2a649d83"},
+    {file = "wasabi-0.10.1.tar.gz", hash = "sha256:c8e372781be19272942382b14d99314d175518d7822057cb7a97010c4259d249"},
+]
 
 [[package]]
 name = "wcwidth"
@@ -3289,4 +3546,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "c8613b2d457499a18a263d08979d0f464a1ca9536e256bbbacfb8787cb097506"
+content-hash = "81abb8e4fe9c37725d8b766139e7c2bcd2f25dbe78945e0122026191f4b18977"
