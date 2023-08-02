@@ -1,8 +1,27 @@
 # NLP
 
+## 環境構築
+
+Poetryを使用します。
+
+1. Poetryのインストール
+```bash
+# Windows
+(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+# Mac
+curl -sSL https://install.python-poetry.org | python -
+echo 'export PATH="/Users/satoru/.local/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+2. 設定を変更する
+
 ```bash
 poetry config --list
-poetry config virtualenvs.in-project true
+poetry config virtualenvs.in-project true # プロジェクトフォルダ内に.venvディレクトリを作成する
+```
+3. Python & ライブラリインストール
+
+```bash
 poetry install
 ```
 
