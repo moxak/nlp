@@ -42,3 +42,8 @@ poetry install
 ### モデル選択
 
 - [日本語言語理解ベンチマークJGLUEの構築 〜 自然言語処理モデルの評価用データセットを公開しました](https://techblog.yahoo.co.jp/entry/2022122030379907/)
+
+### ファインチューニング方法
+
+- [huggingfaceのTrainerクラスを使えばFineTuningの学習コードがスッキリ書けてめちゃくちゃ便利です](https://qiita.com/m__k/items/2c4e476d7ac81a3a44af)
+- [Hugging Face謹製のTrainerが結構便利というお話](https://qiita.com/tealgreen0503/items/246b7e15e2962b6f9c2b)
