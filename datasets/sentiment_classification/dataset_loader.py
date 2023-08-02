@@ -16,10 +16,12 @@ class FTDataset(GeneratorBasedBuilder):
 
         train_path = './train.csv'
         test_path = './test.csv'
+        eval_path = './eval.csv'
 
         return [
             datasets.SplitGenerator(name=datasets.Split.TRAIN, gen_kwargs={"filepath": train_path}),
             datasets.SplitGenerator(name=datasets.Split.TEST, gen_kwargs={"filepath": test_path}),
+            datasets.SplitGenerator(name=datasets.Split.VALIDATION, gen_kwargs={"filepath": eval_path}),
         ]
 
     def _generate_examples(self, filepath):
