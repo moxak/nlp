@@ -3,6 +3,8 @@ from datasets import DatasetBuilder, GeneratorBasedBuilder
 import datasets
 import csv
 
+DATASET_DIR = 'data'
+
 class FTDataset(GeneratorBasedBuilder):
     def _info(self):
         return datasets.DatasetInfo(
@@ -14,9 +16,9 @@ class FTDataset(GeneratorBasedBuilder):
     def _split_generators(self, dl_manager):
         """Returns SplitGenerators."""
 
-        train_path = './train.csv'
-        test_path = './test.csv'
-        eval_path = './eval.csv'
+        train_path = f'./{DATASET_DIR}/train.csv'
+        test_path = f'./{DATASET_DIR}/test.csv'
+        eval_path = f'./{DATASET_DIR}/eval.csv'
 
         return [
             datasets.SplitGenerator(name=datasets.Split.TRAIN, gen_kwargs={"filepath": train_path}),
