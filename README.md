@@ -12,6 +12,8 @@ Poetryを使用します。
 curl -sSL https://install.python-poetry.org | python -
 echo 'export PATH="/Users/satoru/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
+# Linux
+brew install poetry
 ```
 2. 設定を変更する
 
