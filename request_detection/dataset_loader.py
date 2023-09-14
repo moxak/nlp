@@ -10,8 +10,7 @@ class FTDataset(GeneratorBasedBuilder):
         return datasets.DatasetInfo(
             features=datasets.Features({
                 'text': datasets.Value('string'),
-                # 'is_request': datasets.Value('bool'),
-                'is_request': datasets.Value('int64'),
+                'label': datasets.Value('int64'),
             }),
         )
     def _split_generators(self, dl_manager):
@@ -34,5 +33,5 @@ class FTDataset(GeneratorBasedBuilder):
             for id_, row in enumerate(csv_reader):
                 yield id_, {
                     'text': row[0], 
-                    'is_request': row[1], 
+                    'label': row[1], 
                 }
