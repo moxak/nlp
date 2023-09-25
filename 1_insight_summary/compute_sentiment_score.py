@@ -45,7 +45,6 @@ def _min_max_scaling(data):
     normalized_data = (data - min_value) / (max_value - min_value)
     return normalized_data
 
-
 def compute_sentiment_score(df:pd.DataFrame):
     df['sentiment_score'] = _compute_sentiment_score(df[['negative_score', 'positive_score', 'neutral_score']].to_numpy())
     
